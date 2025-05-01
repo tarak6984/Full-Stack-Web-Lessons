@@ -1,0 +1,17 @@
+/* Basic styling for the navigation (you can customize this) */
+nav {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #007bff;
+}
