@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript JSON Example</title>
+</head>
+<body>
+
+<script>
+  const json = '{"result":true, "count":42}';
+  const obj = JSON.parse(json);
+
+  console.log(json);
+  console.log(obj);
+
+  console.log(JSON.stringify({ x: 5, y: 6 }));
+  console.log(JSON.stringify([new Number(3), new String('false'), new Boolean(false)])); //[3,false,false]
+  console.log(JSON.stringify({ x: [10, undefined, function(){}, Symbol('')] }));
+</script>
+
+</body>
+</html>
